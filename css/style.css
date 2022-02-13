@@ -1,0 +1,19 @@
+table{
+    border: 2px solid green;
+    width: 500px;
+    border-collapse: collapse;
+    font-size: 15px;    
+}
+td, th{
+    border: 2px solid green;  
+    padding: 5px 20px 5px 3px;
+}
+tr:nth-child(even){
+    background: #dbedf7;
+}
+tr:nth-child(odd){
+    background: #fff8e6;
+}
+.moon{
+    background: #f2dddf!important;
+}
